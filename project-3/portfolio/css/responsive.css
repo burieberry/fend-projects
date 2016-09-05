@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 649px) {
+
+    .name, .feat-work-section-hed, .feat-work-item-hed {
+        font-size: 1.8em;
+    }
+
+    .logo-block {
+        width: 20%;
+    }
+
+    .name-block {
+        width: 78%;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+
+    .feat-work-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 830px) {
+
+    .feat-work-item {
+        width: 48%;
+        margin: 20px 0;
+    }
+
+    .feat-work-item:last-of-type {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
+

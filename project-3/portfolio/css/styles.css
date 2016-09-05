@@ -1,0 +1,139 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    color: #676858;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    max-width: 960px;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+main, header, section, hr, ul {
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #7d97ad;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Header */
+
+.header {
+    margin: 20px 10px;
+}
+
+.description {
+    font-size: 1.125em;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.name-block {
+    display: inline-block;
+    color: #2d3c49;
+    letter-spacing: 0.1em;
+    text-align: right;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    width: 73%;
+}
+
+.logo-block {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 25%;
+}
+
+.divider {
+    background-color: #7d97ad;
+    height: 5px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+
+
+/* Main Image Section */
+
+.main-image {
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+
+/* Featured Work Section */
+
+.feat-work-section {
+    margin-bottom: 20px;
+}
+
+.feat-work-section-hed {
+    color: #7d97ad;
+    font-size: 2.2em;
+    font-weight: 300;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.feat-work-list {
+    margin: 0 auto;
+}
+
+.feat-work-item {
+    display: inline-block;
+    margin-right: 10px;
+    width: calc((100% - 30px)/3);
+    text-align: center;
+}
+
+.feat-work-item:last-of-type {
+    margin-right: 0;
+}
+
+.feat-work-item-hed {
+    color: #2d3c49;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
